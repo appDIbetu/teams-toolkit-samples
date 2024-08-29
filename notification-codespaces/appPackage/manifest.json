@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "id": "${{TEAMS_APP_ID}}",
     "developer": {
-        "name": "Teams App, Inc.",
+        "name": "Finnoto Solutions Pvt. Ltd.",
         "websiteUrl": "https://www.example.com",
         "privacyUrl": "https://www.example.com/privacy",
         "termsOfUseUrl": "https://www.example.com/termofuse"
@@ -14,12 +14,12 @@
         "outline": "outline.png"
     },
     "name": {
-        "short": "notification-app${{APP_NAME_SUFFIX}}",
-        "full": "Full name for notification-app"
+        "short": "Finnoto",
+        "full": "Finnoto"
     },
     "description": {
-        "short": "Short description of notification-app",
-        "full": "Full description of notification-app"
+        "short": "An app for fin-tech",
+        "full": "Interact with your finance and stay tuned."
     },
     "accentColor": "#FFFFFF",
     "bots": [

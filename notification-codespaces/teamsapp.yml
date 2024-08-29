@@ -14,7 +14,7 @@ provision:
   - uses: teamsApp/create
     with:
       # Teams app name
-      name: notification-app${{APP_NAME_SUFFIX}}
+      name: Finnoto
     # Write the information of created resources into environment file for
     # the specified environment variable(s).
     writeToEnvironmentFile:
@@ -110,3 +110,4 @@ publish:
     # the specified environment variable(s).
     writeToEnvironmentFile:
       publishedAppId: TEAMS_APP_PUBLISHED_APP_ID
+projectId: 74e11dc9-dc98-427f-a19e-ead9d511a3e3

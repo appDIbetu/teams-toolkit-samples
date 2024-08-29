@@ -32,9 +32,9 @@ server.post(
           new ACData.Template(notificationTemplate).expand({
             $root: {
               title: "New Event Occurred!",
-              appName: "Contoso App Notification",
-              description: `This is a sample time-triggered notification (${timeStamp}).`,
-              notificationUrl: "https://aka.ms/teamsfx-notification-new",
+              appName: "Finnoto App Notification",
+              description: `This is a test notification.`,
+              notificationUrl: "https://finnoto.com",
             }
           })
         );
@@ -119,6 +119,9 @@ server.post(
 const teamsBot = new TeamsBot();
 server.post("/api/messages", async (req, res) => {
   await notificationApp.requestHandler(req, res, async (context) => {
+
+    console.log("Incoming Data:")
+    console.log(context)
     await teamsBot.run(context);
   });
 });
